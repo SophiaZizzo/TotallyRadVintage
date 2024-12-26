@@ -1,0 +1,80 @@
+@font-face {
+	font-family: static;
+	src:url(../fonts/STIXTwoText[wght].woff2);
+}
+.logo {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	content: url(../images/logo.png);
+}
+
+section {
+	position: relative; 
+}
+
+.navigation{
+	font-family: static;
+	font-size:30px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	float: right;
+	z-index: 2;
+}
+
+li {
+	float: right;
+	margin-right: 197px;
+}
+
+ul {
+	position: absolute;
+	left: 342px;
+	list-style: none;
+	font-size: 1em;
+	top: 124px;
+	width: 1500px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.container {
+	overflow: hidden;
+	width: 100%; 
+	height: auto;
+	position: relative;
+	top:0px;
+	z-index: 1;
+}
+.careertext{
+	position: absolute;
+	left: 155px;
+	bottom: 1385px;
+}
+
+
+.button1{
+	font-family: static;
+	font-size:90px;
+	color: black;
+	position: relative;
+	left: 340px;
+	bottom:1470px;
+	transform: translateX(-50%);
+	text-decoration: none;
+
+}
+.button2{
+	font-family: static;
+	font-size:90px;
+	color: black;
+	position: relative;
+	left: 850px;
+	bottom: 2000px;
+	transform: translateX(-50%);
+	text-decoration: none;
+	
+}
+

@@ -1,0 +1,80 @@
+@font-face {
+	font-family: static;
+	src:url(../fonts/STIXTwoText[wght].woff2);
+}
+.logo {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	content: url(../images/logo.png);
+}
+
+section {
+	position: relative; 
+}
+
+.navigation{
+	font-family: static;
+	font-size:30px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	float: right;
+	z-index: 2;
+}
+
+li {
+	float: right;
+	margin-right: 196.25px;
+}
+
+ul {
+	position: absolute;
+	left: 342px;
+	list-style: none;
+	font-size: 1em;
+	top: 124px;
+	width: 1500px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.container {
+	overflow: hidden;
+	width: 100%; 
+	height: auto;
+	position: relative;
+	top:0px;
+	z-index: 1;
+}
+.cities{
+	position: absolute;
+	left: 160px;
+	top: 380px;
+}
+
+
+.button1{
+	font-family: static;
+	font-size:90px;
+	color: black;
+	position: relative;
+	left: 430px;
+	bottom: 410px;
+	transform: translateX(-50%);
+	text-decoration: none;
+
+}
+.button2{
+	font-family: static;
+	font-size:90px;
+	color: black;
+	position: relative;
+	left: 750px;
+	bottom: 1300px;
+	transform: translateX(-50%);
+	text-decoration: none;
+	
+}
+
